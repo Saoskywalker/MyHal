@@ -1,7 +1,7 @@
 #include "beep.h"
 #include "PWM_port.h"
 
-static PWM_dev BeepPwmControl;
+static pwm_dev_type BeepPwmControl;
 
 #define _ring MTF_pwm_set_duty(&BeepPwmControl, beep.Vol) //禁止VOL:0, 此电路必须有方波才向
 #define _unring MTF_pwm_set_duty(&BeepPwmControl, 100)
