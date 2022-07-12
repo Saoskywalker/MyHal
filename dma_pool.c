@@ -23,7 +23,7 @@
  */
 #include <stdint.h>
 #include <sizes.h>
-#include <dma.h>
+#include "dma_pool.h"
 
 static void * __dma_pool = NULL;
 
