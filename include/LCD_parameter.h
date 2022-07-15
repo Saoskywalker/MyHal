@@ -24,8 +24,6 @@ HFP(horizontal front porth)：表示一行的有效数据结束到下一个水�
 HSPW(horizontal sync pulse width)：表示水平同步信号的宽度，用VCLK计算，对应驱动中的hsync_len；
 **************************************/
 
-#define LCD_MODEL_4_3_IPS
-
 #ifdef LCD_MODEL_AT070TN94
 #define LCD_X_PIXEL 800
 #define LCD_Y_PIXEL 480
